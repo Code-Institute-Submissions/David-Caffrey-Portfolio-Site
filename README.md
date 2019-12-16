@@ -1,13 +1,6 @@
-# Dave Caffreys Milestone Project
-
-## UX
-
-## Features
-
-### Existing Features
+# David Caffreys Portfolio Site
 
 
-### Features Left to Implement
 
 
 
