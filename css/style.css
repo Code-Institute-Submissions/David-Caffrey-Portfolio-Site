@@ -59,18 +59,29 @@ h3{
 /*changes background color*/
 .bg-company-custom{
      background-color:#6ba8a9;
+     font-size: 24px;
     
 }
 /*changes brand and text colors*/
 .bg-company-custom .navbar-brand,
 .bg-company-custom .navbar-text{
     color: #000;
+    font-size: 36px;
 }
 
 /*changes the color of links*/
-
 .bg-company-custom .navbar-nav .nav-link{
     color:#000;
 }
 
+.floaters{
+    position: relative;
+}
+.inners{
+color:#000; background-color:#6ba8a9; text-align:center; padding:50px 80px;  font-size:24px;
+}
+
+.about{
+    color:#000; background-color:#6ba8a9; text-align:center; padding:50px 80px;  font-size:24px;
+}
 
