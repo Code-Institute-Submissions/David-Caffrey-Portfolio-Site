@@ -55,3 +55,22 @@ h3{
 
 
 }
+/*---------------nav bar styling ref STACKOVERFLOW----------------*/
+/*changes background color*/
+.bg-company-custom{
+     background-color:#6ba8a9;
+    
+}
+/*changes brand and text colors*/
+.bg-company-custom .navbar-brand,
+.bg-company-custom .navbar-text{
+    color: #000;
+}
+
+/*changes the color of links*/
+
+.bg-company-custom .navbar-nav .nav-link{
+    color:#000;
+}
+
+
