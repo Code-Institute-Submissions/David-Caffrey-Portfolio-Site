@@ -78,10 +78,21 @@ h3{
     position: relative;
 }
 .inners{
-color:#000; background-color:#6ba8a9; text-align:center; padding:50px 80px;  font-size:24px;
+    color:#000; 
+    background-color:#6ba8a9; 
+    text-align:center; 
+    padding:50px 80px;  
+    font-size:24px;
 }
 
 .about{
-    color:#000; background-color:#6ba8a9; text-align:center; padding:50px 80px;  font-size:24px;
+    color:#000; 
+    background-color:#6ba8a9; 
+    text-align:center; 
+    padding:50px 80px;  
+    font-size:24px;
+}
+.card{
+    margin: 80px;
 }
 
