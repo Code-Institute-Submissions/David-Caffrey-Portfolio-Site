@@ -81,7 +81,7 @@ h3{
     color:#000; 
     background-color:#6ba8a9; 
     text-align:center; 
-    padding:50px 80px;  
+    padding:50px 50px;  
     font-size:24px;
 }
 
@@ -89,10 +89,14 @@ h3{
     color:#000; 
     background-color:#6ba8a9; 
     text-align:center; 
-    padding:50px 80px;  
+    padding:10px 20px;  
     font-size:24px;
 }
-.card{
-    margin: 80px;
-}
 
+
+@media screen and (max-width: 1200px){
+    .carousel-item img{
+        width: 400px;
+        height: 400px;
+    }
+}
