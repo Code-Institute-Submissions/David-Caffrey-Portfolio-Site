@@ -93,10 +93,27 @@ h3{
     font-size:24px;
 }
 
-
-@media screen and (max-width: 1200px){
-    .carousel-item img{
-        width: 400px;
-        height: 400px;
+.responsive{
+    padding: 0 6px;
+    float: left;
+    width: 100%;
+}
+@media only screen and (max-width:1440px){
+    .responsive {
+        width: 49.99%;
+        height: 75%;
+        margin:6px 0;
     }
 }
+
+.carousel-inner .item,
+.carousel-inner .item.active,
+.carousel-inner .item img {
+    margin: auto;
+    padding: 0px;
+}
+
+.carousel-inner .active{
+    padding: 0;
+}
+
