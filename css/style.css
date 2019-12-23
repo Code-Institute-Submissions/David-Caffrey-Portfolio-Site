@@ -18,13 +18,20 @@ body,html{
 /*styling of navbar*/
 #navbar-custom{
     background-color: #698474;
-   
-   
+   border: 1px solid black;
+
+  
+}
+#navbar-custom.footer-navi{
+    margin-top: 50px;
 }
 /* color of links*/
 .nav-link { 
     color: black;
-     font-size: 24px;
+    font-size: 24px;
+    position: relative;
+    left: 150px;
+    margin-left: 20px;
 }
 /* hover color of links in navbar*/
 .navbar-nav  li>a:hover{
@@ -59,4 +66,5 @@ h1.my, h1.hide-me{
 p.card-text{
     min-height: 100px;
 }
+
  
