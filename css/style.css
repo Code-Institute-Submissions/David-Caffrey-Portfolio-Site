@@ -67,4 +67,34 @@ p.card-text{
     min-height: 100px;
 }
 
- 
+ul.social {
+
+    width: 60%;
+    margin: 0;
+    padding: 0;
+  
+    
+}
+
+ul{
+    width: 70%;
+    list-style-type: none;
+    
+   
+}
+
+li.social-list-item{
+    margin: 0 10px;
+    max-width: 60px;
+    display: inline;
+
+}
+
+i{
+    font-size: 30px;
+    margin: 0;
+}
+a.social-link{
+    max-width: 22px;
+}
+
