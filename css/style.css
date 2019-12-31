@@ -42,9 +42,13 @@ h1.my, h1.hide-me{
     text-align: center;
 
 }
+.column{
+    margin-bottom: 20px;
+}
+
 .card{
     margin: 20px 94px 20px 94px;
-    border: 1rem solid #698474;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     
     
 }
@@ -67,11 +71,17 @@ p.card-text{
     min-height: 100px;
 }
 
-ul.social {
+.social-footer{
+    position: relative;
+}
 
-    width: 60%;
-    margin: 0;
+ul.social {
+    text-align: center;
+    width: 100%;
+    margin-right:10px;
     padding: 0;
+    position: absolute;
+
   
     
 }
