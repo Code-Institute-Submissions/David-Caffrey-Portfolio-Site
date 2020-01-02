@@ -39,7 +39,7 @@ body,html{
 }
 /* hover color of links in navbar*/
 .navbar-nav  li>a:hover{
-    color:chartreuse;
+    color:#edebbd;
 }
 
 h1.my, h1.hide-me{
@@ -68,7 +68,7 @@ h1.my, h1.hide-me{
 
 .card-body{
     
-    background-color: #bac7a7;
+    background-color:#edebbd;
 }
 
 p.card-text{
@@ -116,4 +116,10 @@ a.social-link{
 .copy{
     width: 100%;
     position: absolute;
+}
+
+.custom-button{
+    background-color: #698474;
+    color: black;
+    border: 1px solid black;
 }
