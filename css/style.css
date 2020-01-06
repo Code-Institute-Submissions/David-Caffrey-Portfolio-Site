@@ -42,6 +42,10 @@ body,html{
 .navbar-nav  li>a:hover{
     color:#edebbd;
 }
+li.nav-item{
+    margin: 0 auto;
+}
+
 
 
 
