@@ -76,18 +76,21 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6 col-lg-6" style="margin:auto;">
-				<form action="" target="_blank" method="get">
+				<form class="needs-validation" action="" method="get">
 					<div class="form-group">
 						<label for="FormControlInput1">Name</label>
-						<input type="text" class="form-control" id="FormControlInput1" placeholder="yourname">
+						<input type="text" class="form-control" id="FormControlInput1" placeholder="yourname" required>
+                        <div class="invalid-feedback">
+                            Please provide a valid city.
+                        </div>
                     </div>
 					<div class="form-group">
 						<label for="inputPhone">Phone number</label>
-						<input type="text" class="form-control" id="inputPhone" placeholder="your phone number">
+						<input type="text" class="form-control" id="inputPhone" placeholder="your phone number" required>
                     </div>
 					<div class="form-group ">
                         <label for="inputEmail4">Email</label>
-                        <input type="email" class="form-control" id="inputEmail4" placeholder="your@mail.com">
+                        <input type="email" class="form-control" id="inputEmail4" placeholder="your@mail.com" required>
                     </div>
 
 
@@ -99,7 +102,7 @@
 				</form>
 
 			</div>
-            <div class="col-md-6 col-lg-6 col-xl-3 column" >
+            <div class="col-md-6 col-lg-6 col-xl-6 column" >
 			<div class="card mx-auto h-100">
 				<div class="card-body">
 					<h5 class="card-title">My Contact Details.</h5>

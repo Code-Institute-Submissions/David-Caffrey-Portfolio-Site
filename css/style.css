@@ -63,6 +63,25 @@ h1.my, h1.hide-me{
     
     
 }
+
+.about-card{
+    width: 18rem;
+    margin: 0 auto 4rem auto;
+}
+@media(min-width:600px){
+    .about-card{
+        width:30rem;
+        margin: 0 auto 4rem auto;
+    }
+}
+
+@media(min-width:900px){
+    .about-card{
+        width: 40rem;
+        margin: 0 auto 4rem auto;
+    }
+}
+
 .card-deck{
     margin: auto;
     margin-bottom: 3rem;
