@@ -1,9 +1,9 @@
 body,html{
     width: 100%;
     height: 100%;
-    color:black;
-    font-family: Roboto, sans-serif;
-    background-color:#bac7a7;
+    color:#393e46;
+    font-family: 'Montserrat', sans-serif;
+    background-color:#effffb;
 }
 
 .container{
@@ -14,7 +14,7 @@ body,html{
 }
 
 .bottom-border{
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #393e46;
 }
 /*media q to hide h1 on smaller screens*/
 @media (max-width:600px){
@@ -25,14 +25,14 @@ body,html{
 /*styling of navbar*/
 .navbar-custom{
     width: 100%;
-    background-color: #698474;
+    background-color: #4f98ca;
     border: 1px solid black;
    
 }
 
 /* color of links*/
 .nav-link { 
-    color: black;
+    color:#272727;
     font-size: 24px;
    
     left: 150px;
@@ -40,16 +40,20 @@ body,html{
 }
 /* hover color of links in navbar*/
 .navbar-nav  li>a:hover{
-    color:#edebbd;
+    color:#effffb;
 }
 li.nav-item{
     margin: 0 auto;
+}
+span.navbar-toggler-icon{
+    color: red;
 }
 
 
 
 
 h1.my, h1.hide-me{
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
 
 }
@@ -95,7 +99,7 @@ h1.my, h1.hide-me{
 
 .card-body{
     
-    background-color:#edebbd;
+    background-color:#effffb;
 }
 
 p.card-text{
@@ -104,7 +108,7 @@ p.card-text{
 
 .social-footer{
     position: relative;
-    border: 1px solid black;
+    border: 1px solid #272727;
     padding: 30px;
     
 }
@@ -139,15 +143,15 @@ i{
     margin: 0;
 }
 a.social-link{
-    color:#698474;
+    color:#4f98ca;
     max-width: 22px;
     box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
      
 }
 
 .custom-button{
-    background-color: #698474;
-    color: black;
+    background-color: #4f98ca;
+    color:#393e46;
     border: 1px solid black;
     transition-duration: .04s;
 }
