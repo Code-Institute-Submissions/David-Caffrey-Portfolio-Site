@@ -28,18 +28,29 @@ html body{
     background-color: #4f98ca;
     border: 1px solid black;
 }
-div#navbarSupportedContent.collapse.navbar-collapse{
-    width: 100%;
-    text-align: center;
-    padding-left: 3rem;
-}
 
 @media(min-width:1440px){
-    div#navbarSupportedContent.collapse.navbar-collapse{
-        padding-left:15rem;
-    }
+  
     ul.navbar-nav{
-        margin-left: 5rem;
+        margin-left: 10rem;
+    }
+    li.nav-item{
+        margin-left: 100px;
+    }
+}
+@media(min-width:1920px){
+  
+    ul.navbar-nav{
+        margin-left: 20rem;
+    }
+    li.nav-item{
+        margin-left: 100px;
+    }
+}
+@media(min-width:2560px){
+  
+    ul.navbar-nav{
+        margin-left: 40rem;
     }
     li.nav-item{
         margin-left: 100px;
@@ -76,13 +87,51 @@ h1.my, h1.hide-me{
     margin: 20px 94px 20px 94px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     
-    
+}
+/*Code from W3 schools tutorial*/
+.card{
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 3s;
 }
 
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+  from {width: 18rem;}
+  to {width:19rem; }
+}
+
+/* Standard syntax */
+@keyframes example {
+  from {width: 19rem; }
+  to {width:18rem;}
+}
+
+
 .about-card{
-    width: 18rem;
+    
     margin: 0 auto 4rem auto;
 }
+.about-card{
+    -webkit-animation-name: about ; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+    animation-name: about;
+    animation-duration: 1s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes about {
+  from {width: 48%;}
+  to {width:49%; }
+}
+
+/* Standard syntax */
+@keyframes about {
+  from {width: 49%; }
+  to {width:50%;}
+}
+
 @media(min-width:600px){
     .about-card{
         width:30rem;
