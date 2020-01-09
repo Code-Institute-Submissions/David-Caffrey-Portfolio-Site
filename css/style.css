@@ -91,9 +91,9 @@ h1.my, h1.hide-me{
 /*Code from W3 schools tutorial*/
 .card{
     -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
     animation-name: example;
-    animation-duration: 3s;
+    animation-duration: 1s;
 }
 
 /* Safari 4.0 - 8.0 */
@@ -113,7 +113,20 @@ h1.my, h1.hide-me{
     
     margin: 0 auto 4rem auto;
 }
-.about-card{
+
+
+@media(min-width:600px){
+    .about-card{
+        width:30rem;
+        margin: 0 auto 4rem auto;
+       
+    }
+    .about-card{
+        width: 40rem;
+        margin: 0 auto 4rem auto;
+
+    }
+    .about-card{
     -webkit-animation-name: about ; /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
     animation-name: about;
@@ -122,28 +135,64 @@ h1.my, h1.hide-me{
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes about {
-  from {width: 48%;}
-  to {width:49%; }
+  from {width: 18rem;}
+  to {width:19rem; }
 }
 
 /* Standard syntax */
 @keyframes about {
-  from {width: 49%; }
-  to {width:50%;}
+  from {width: 19rem; }
+  to {width:18rem;}
 }
 
-@media(min-width:600px){
+
+}
+@media(min-width:740px){
+    
     .about-card{
-        width:30rem;
-        margin: 0 auto 4rem auto;
-    }
+    -webkit-animation-name: about ; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+    animation-name: about;
+    animation-duration: 1s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes about {
+  from {width: 40rem;}
+  to {width:41rem; }
+}
+
+/* Standard syntax */
+@keyframes about {
+  from {width: 41rem; }
+  to {width:40rem;}
+}
 }
 
 @media(min-width:900px){
     .about-card{
         width: 40rem;
         margin: 0 auto 4rem auto;
+
     }
+    .about-card{
+    -webkit-animation-name: about ; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+    animation-name: about;
+    animation-duration: 1s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes about {
+  from {width: 40rem;}
+  to {width:41rem; }
+}
+
+/* Standard syntax */
+@keyframes about {
+  from {width: 41rem; }
+  to {width:40rem;}
+}
 }
 
 .card-deck{
