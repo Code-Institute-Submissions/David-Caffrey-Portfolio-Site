@@ -1,4 +1,4 @@
-body,html{
+html body{
     width: 100%;
     height: 100%;
     color:#393e46;
@@ -27,15 +27,29 @@ body,html{
     width: 100%;
     background-color: #4f98ca;
     border: 1px solid black;
-   
+}
+div#navbarSupportedContent.collapse.navbar-collapse{
+    width: 100%;
+    text-align: center;
+    padding-left: 3rem;
+}
+
+@media(min-width:1440px){
+    div#navbarSupportedContent.collapse.navbar-collapse{
+        padding-left:15rem;
+    }
+    ul.navbar-nav{
+        margin-left: 5rem;
+    }
+    li.nav-item{
+        margin-left: 100px;
+    }
 }
 
 /* color of links*/
 .nav-link { 
     color:#272727;
     font-size: 24px;
-   
-    left: 150px;
     margin: 0 0 0 5rem;
 }
 /* hover color of links in navbar*/
@@ -43,7 +57,7 @@ body,html{
     color:#effffb;
 }
 li.nav-item{
-    margin: 0 auto;
+    margin: 0 0 0 2rem;
 }
 
 
