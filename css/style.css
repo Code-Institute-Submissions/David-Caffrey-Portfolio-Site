@@ -91,9 +91,9 @@ h1.my, h1.hide-me{
 /*Code from W3 schools tutorial*/
 .card{
     -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 0.5s; /* Safari 4.0 - 8.0 */
     animation-name: example;
-    animation-duration: 1s;
+    animation-duration: 0.5s;
 }
 
 /* Safari 4.0 - 8.0 */
@@ -128,9 +128,9 @@ h1.my, h1.hide-me{
     }
     .about-card{
     -webkit-animation-name: about ; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 0.5s; /* Safari 4.0 - 8.0 */
     animation-name: about;
-    animation-duration: 1s;
+    animation-duration: 0.5s;
 }
 
 /* Safari 4.0 - 8.0 */
@@ -151,9 +151,9 @@ h1.my, h1.hide-me{
     
     .about-card{
     -webkit-animation-name: about ; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 0.5s; /* Safari 4.0 - 8.0 */
     animation-name: about;
-    animation-duration: 1s;
+    animation-duration: 0.5s;
 }
 
 /* Safari 4.0 - 8.0 */
@@ -177,9 +177,9 @@ h1.my, h1.hide-me{
     }
     .about-card{
     -webkit-animation-name: about ; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 0.5s; /* Safari 4.0 - 8.0 */
     animation-name: about;
-    animation-duration: 1s;
+    animation-duration: 0.5s;
 }
 
 /* Safari 4.0 - 8.0 */
