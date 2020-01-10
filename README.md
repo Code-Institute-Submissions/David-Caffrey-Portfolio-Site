@@ -6,7 +6,7 @@ This is a portfolio site to showcase my current and future projects. This site i
 the technologies I have used and my design process. Included is a bio section, a downloadable version of my CV, a contact page and a page of projects.
 
 ## Demo
-A live demo of my portfolio site can be found [here](https://DavidCaffrey.github.io/David-Caffrey-Portfolio-Site/
+A live demo of my portfolio site can be found [here](https://DavidCaffrey.github.io/David-Caffrey-Portfolio-Site/)
 
 ## UX
 My primary focus for the project was to create a mobile reponsive site that would not require the end user to do too much navigation. 
