@@ -91,21 +91,21 @@ h1.my, h1.hide-me{
 /*Code from W3 schools tutorial*/
 .card{
     -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 0.5s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 0.3s; /* Safari 4.0 - 8.0 */
     animation-name: example;
-    animation-duration: 0.5s;
+    animation-duration: 0.3s;
 }
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes example {
-  from {width: 18rem;}
+  from {width: 18.75rem;}
   to {width:19rem; }
 }
 
 /* Standard syntax */
 @keyframes example {
   from {width: 19rem; }
-  to {width:18rem;}
+  to {width:18.75rem;}
 }
 
 
@@ -128,20 +128,20 @@ h1.my, h1.hide-me{
     }
     .about-card{
     -webkit-animation-name: about ; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 0.5s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 0.3s; /* Safari 4.0 - 8.0 */
     animation-name: about;
-    animation-duration: 0.5s;
+    animation-duration: 0.3s;
 }
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes about {
   from {width: 18rem;}
-  to {width:19rem; }
+  to {width:18.25rem; }
 }
 
 /* Standard syntax */
 @keyframes about {
-  from {width: 19rem; }
+  from {width: 18.25rem; }
   to {width:18rem;}
 }
 
@@ -159,12 +159,12 @@ h1.my, h1.hide-me{
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes about {
   from {width: 40rem;}
-  to {width:41rem; }
+  to {width:40.25rem; }
 }
 
 /* Standard syntax */
 @keyframes about {
-  from {width: 41rem; }
+  from {width: 40.25rem; }
   to {width:40rem;}
 }
 }
@@ -177,20 +177,20 @@ h1.my, h1.hide-me{
     }
     .about-card{
     -webkit-animation-name: about ; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 0.5s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 0.3s; /* Safari 4.0 - 8.0 */
     animation-name: about;
-    animation-duration: 0.5s;
+    animation-duration: 0.3s;
 }
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes about {
   from {width: 40rem;}
-  to {width:41rem; }
+  to {width:40.25rem; }
 }
 
 /* Standard syntax */
 @keyframes about {
-  from {width: 41rem; }
+  from {width: 40.25rem; }
   to {width:40rem;}
 }
 }

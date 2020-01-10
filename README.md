@@ -6,9 +6,12 @@ This is a portfolio site to showcase my current and future projects. This site i
 the technologies I have used and my design process. Included is a bio section, a downloadable version of my CV, a contact page and a page of projects.
 
 ## Demo
-A live demo of my portfolio site can be found here
+A live demo of my portfolio site can be found [here](https://DavidCaffrey.github.io/David-Caffrey-Portfolio-Site/
 
 ## UX
+My primary focus for the project was to create a mobile reponsive site that would not require the end user to do too much navigation. 
+I wanted the site to allow all users to view my previous work, my skills, info about me, and find my github page.
+For future employers I wanted to provide them with a downloadable version of my CV.
 
 ### User stories
 
@@ -44,7 +47,8 @@ Contact Page:
 
 ### Surface 
 
-A modern look and feel through the use of soft pastel colors.
+A modern look and feel through the use of soft pastel colors. Just a few animations to the cards(bootstrap) I used to add a little movement to the site without being 
+overpowering visually.
 
 
 ## Technologies
@@ -56,8 +60,14 @@ A modern look and feel through the use of soft pastel colors.
 
 
 ## Features 
+The sites main focus being a crisp design, I used cards to provide me with the compartmentalization I desired. During the build I felt that the cards could do with 
+something to make them standout and opted to give them a little animation.
+
+#### Features left to implement
+I will add more projects as they become available.
 
 ## Testing 
+The first phase of testing consisted of 
 
 ## Deployment
 
