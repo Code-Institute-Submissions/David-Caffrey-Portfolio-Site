@@ -65,13 +65,18 @@ something to make them standout and opted to give them a little animation.
 
 #### Features left to implement
 I will add more projects as they become available.
+Create some social media accounts for myself and connect links to my accounts.
 
 ## Testing 
-The first phase of testing consisted of 
+The first phase of testing consisted of incrementally testing each new addition to the html or css in all screen sizes in the dev tools. Also testing that all links took
+the user to the desired location on the site or to the correct external links such as the social media links, even though I do not have accounts to some of those links 
+at present. The next phase of testing consisted of testing on physical devices such as ipad mini,moto c plus,huawei mediapad and iphone 7.
 
 ## Deployment
+The site is deployed on Github from the repo page then to the settings and down to Github pages and selecting the master branch.
 
 # Credits
+
 
 ## Content
 
@@ -82,6 +87,7 @@ All content in this site was provided by David Caffrey
 The photos/dummy images were taken from [Pexels](https://www.pexels.com).
 
 ### Acknowledgements
+The cards were from the bootstrap website and their animations were adapted from the W3Schools website to suit my project.
 
 
 
